@@ -74,7 +74,7 @@ width: 75%;
    background-color: #050e39;
    /* background-color: #ffffff6c; */
    border-radius: 4px 0 0 4px;
-   border: 3px solid rgb(255, 251, 10);
+   border: 3px solid rgb(3, 255, 234);
    border-radius: 10px;
   
    }
@@ -86,19 +86,21 @@ width: 75%;
    border: none;
    border-radius: 0 4px 4px 0;
    cursor: pointer;
-   border: 3px solid rgb(255, 251, 10);
+   border: 3px solid rgb(3, 255, 234);
    border-radius: 10px;
    }
    button {
     padding: 8px 12px;
     background-color: #ffffff81;
-    color: #87550e;
+    color: #05031b;
     border-radius: 10px;
+    font-size: 18px;
+    border: none;
    
    }
    button:hover{
-    background-color: #050e39;
-    columns: #fff;
+    background-color: #0c031f;
+    color: #ffffff;
    }
    button:active{
     background-color: #050e39;
@@ -143,31 +145,24 @@ width: 75%;
    }
    
    .document-card {
-   /* background-color: #ffffff81; */
+   background-color: #ffffff81;
    border-radius: 8px;
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
    padding: 20px;
    text-align: center;
-box-shadow: 0 4px 6px rgb(254, 254, 254), 0 1px 3px rgb(255, 254, 254);
-    transition: box-shadow 0.3s ease-in-out;
-    
-
+   box-shadow: 0 4px 6px rgb(254, 254, 254), 0 1px 3px rgb(255, 254, 254);
+   transition: box-shadow 0.3s ease-in-out;
 }
 
-
-
-   
-   
    .document-card h3 {
    font-size: 18px;
    margin-bottom: 10px;
    background-color: #ffffff81;
    color: #050e39;
    border-radius: 10px;
+   padding: 5px 10px;
 
    }
-   
-   
    
    p {
    font-size: 18px;

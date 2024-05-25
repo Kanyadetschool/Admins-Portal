@@ -16,7 +16,7 @@ function displayCardInfo() {
     const totalCards = countTotalCards();
 
     // Display the total count of cards
-    totalCardsContainer.innerHTML = `<p>Total Docs: ${totalCards}</p>`;
+    totalCardsContainer.innerHTML = `<p>Showing: ${totalCards}  Documents in Total</p>`;
 
     // Display any new cards (assuming newCards is an array of newly uploaded cards)
     const newCards = getNewCards(); // This function should return an array of new cards

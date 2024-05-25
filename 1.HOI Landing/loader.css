@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity */
+     /*background-color: rgba(255, 255, 255, 0.8); Adjust the background color and opacity */
     z-index: 9999; /* Ensure the loader is above other content */
   }
   
@@ -28,7 +29,7 @@ body {
   .loading circle {
     fill: none;
     stroke: hsl(214, 97%, 59%);
-    stroke-width: 3;
+    stroke-width: 6;
     stroke-dasharray: 1, 200;
     stroke-dashoffset: 0;
     stroke-linecap: round;

@@ -1,6 +1,6 @@
 const Titles = [
     {
-        Group:'KANYADET SCHOOL KPEEL INSPECTION AND ACCEPTANCE COMMITTE',
+        Group:'KPEEL INSPECTION AND ACCEPTANCE COMMITTE',
         year: 2024,
         students: [
            {
@@ -211,7 +211,7 @@ function searchStudents() {
                 highlightText(studentDate,searchInput2); // Highlight matching text or year
 
                 const studentDownloadBtn = document.createElement('button');
-                studentDownloadBtn.textContent = 'Download';
+                studentDownloadBtn.textContent = 'View';
                 studentDownloadBtn.addEventListener('click', () => {
                     Swal.fire({
                         icon:'info',

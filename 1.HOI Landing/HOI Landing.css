@@ -167,7 +167,6 @@ width: 75%;
    p {
    font-size: 18px;
   padding: 5px 5px;
-   background-color: #ffffff81;
    color: #050e39;
    border-radius: 10px;
    width: auto;
@@ -185,12 +184,15 @@ width: 75%;
    
 
 .swal2-popup li{
-    background-color: #ffffff75;
+    background-color: #fffffff6;
     padding: 5px 10px;
     border-radius: 20px;
     margin: 5px;
     list-style: none;
     
+   }
+   a{
+    background-color: #ffffff6a;
    }
 
  a:hover{

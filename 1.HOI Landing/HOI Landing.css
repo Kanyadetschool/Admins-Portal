@@ -310,19 +310,29 @@ div:where(.swal2-container) div:where(.swal2-popup) {
     backdrop-filter: blur(5px);
    
   }
-  button.swal2-confirm.swal2-styled,.swal2-cancel.swal2-styled {
-    border:1px solid gray ;
-    border-radius: 8px;
+  button.swal2-confirm.swal2-styled{
+    border:5px solid rgb(16, 231, 228) ;
+    border-radius: 16px;
     background: initial;
     backdrop-filter: blur(50px);
     color: #fff;
-    background-color: red;
+    background-color: rgb(5, 6, 39);
     width: 90px;
     font-size: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    outline: none;
-   
-  
-    
+    outline: none; 
   }
-  
+  button.swal2-deny.swal2-styled{
+    background-color: rgb(5, 6, 39);
+    border:5px solid rgb(16, 231, 228) ;
+    border-radius: 16px;
+  }
+  .swal2-cancel.swal2-styled {
+    background-color: rgb(5, 6, 39);
+    border:5px solid rgb(16, 231, 228) ;
+    border-radius: 16px;
+  }
+  element.style {
+    display: inline-block;
+    background-color: transparent;
+}

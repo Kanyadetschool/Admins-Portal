@@ -99,7 +99,7 @@ loginForm.addEventListener("submit", (event) => {
     // Redirect to www.google.com after 3 seconds
     setTimeout(() => {
       window.location.href = "./1.HOI Landing/HOI Landing.html";
-    }, 8000); // 3000 milliseconds = 3 seconds
+    }, 3000); // 3000 milliseconds = 3 seconds
   } else {
     // Play the error sound
     errorSound.play();
